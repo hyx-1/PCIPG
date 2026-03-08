@@ -18,3 +18,8 @@ This repository provides an end-to-end **unsupervised GNN pipeline** for protein
 cd code
 conda env create -f environment.yml
 conda activate PCIPG
+
+## Quick Start
+```bash
+bash main.sh
+conda activate PCIPG
