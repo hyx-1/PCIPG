@@ -20,7 +20,7 @@ conda env create -f environment.yml
 conda activate PCIPG
 ```
 
-## Installation
+## Quick Start
 ```bash
 bash main.sh
 ```
