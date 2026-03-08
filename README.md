@@ -1,4 +1,4 @@
-Code for protein complex method PCIPG. Human and Saccharomyces cerevisiae PPI datasets for PCIPG are in https://zenodo.org/records/18254107.
+Code for protein complex method PCIPG. All datasets related for PCIPG (Human and Saccharomyces cerevisiae PPI, etc) are in https://zenodo.org/records/18254107.
 # PCIPG (SAGE-GAT) — Unsupervised Protein Complex Discovery
 
 This repository provides an end-to-end **unsupervised GNN pipeline** for protein complex discovery. It constructs a **PPI graph** augmented with **structure-informed residue/contact features**, trains a **GraphSAGE/GAT-style model** with an **unsupervised edge/non-edge objective** to learn protein embeddings / interaction scores, generates **candidate protein complexes**, and evaluates them against a **gold-standard complex set**.
